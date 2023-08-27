@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    width: 100%;
+    height: 700px;
+    background-image: url("lauren-mancke-aOC7TSLb1o8-unsplash.jpg");
+    background-size: cover;
+}
+
+.box1img {
+    text-align: center;
+}
+
+.box1img1 {
+    height: 200px;
+    margin-top: 150px;
+    position: relative;
+    animation: box1img1img 2s;
+}
+
+@keyframes box1img1img {
+    0% {
+        top: -400px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.box1Name {
+    font-size: 80px;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    animation: box1Name1 2s;
+}
+
+@keyframes box1Name1 {
+    0% {
+        left: -500px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.box1button {
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(170, 249, 10);
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+    animation: box1button 2s;
+}
+
+@keyframes box1button {
+    0% {
+        right: -900px;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.box2 {
+    background-color: rgb(170, 255, 0);
+}
+
+.box2name {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    animation: box2name 2s;
+    animation-play-state: calc(200s);
+    /* animation-zoom_in_up-scale: 0.475; */
+}
+
+@keyframes box2name {
+    0% {
+        bottom: -200px;
+        font-size: 10px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.box2card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.card1 {
+    position: relative;
+    animation: card1 2s;
+}
+
+@keyframes card1 {
+    0% {
+        bottom: -200px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.card2 {
+    position: relative;
+    animation: card1 3s;
+}
+
+@keyframes card2 {
+    0% {
+        bottom: -200px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.card3 {
+    position: relative;
+    animation: card3 4s;
+}
+
+@keyframes card3 {
+    0% {
+        bottom: -200px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.card4 {
+    position: relative;
+    animation: card1 5s;
+}
+
+@keyframes card4 {
+    0% {
+        bottom: -200px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.box3 {
+    width: 100%;
+    background-color: black;
+}
+
+.box3img {
+    width: 40%;
+}
